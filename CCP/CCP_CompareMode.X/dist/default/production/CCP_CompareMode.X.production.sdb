@@ -1,0 +1,121 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"19 C:\Users\PC\MPLABXProjects\CCP_CompareMode.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"31
+[v _ISR ISR `II(v  1 e 1 0 ]
+"45
+[v _GPIO_Init GPIO_Init `(v  1 e 1 0 ]
+"51
+[v _TMR1_Init TMR1_Init `(v  1 e 1 0 ]
+"56
+[v _Compare_Init Compare_Init `(v  1 e 1 0 ]
+[s S55 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"295 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877.h
+[u S64 . 1 `S55 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES64  1 e 1 @7 ]
+[s S121 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"477
+[s S130 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S135 . 1 `S121 1 . 1 0 `S130 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES135  1 e 1 @11 ]
+[s S34 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"549
+[u S43 . 1 `S34 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES43  1 e 1 @12 ]
+"648
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"880
+[v _CCPR1 CCPR1 `VEus  1 e 2 @21 ]
+"901
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @23 ]
+[s S76 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1449
+[u S85 . 1 `S76 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES85  1 e 1 @135 ]
+[s S100 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"1630
+[u S109 . 1 `S100 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES109  1 e 1 @140 ]
+"12 C:\Users\PC\MPLABXProjects\CCP_CompareMode.X\main.c
+[v _C C `uc  1 e 1 0 ]
+"19
+[v _main main `(v  1 e 1 0 ]
+{
+"29
+} 0
+"51
+[v _TMR1_Init TMR1_Init `(v  1 e 1 0 ]
+{
+"54
+} 0
+"45
+[v _GPIO_Init GPIO_Init `(v  1 e 1 0 ]
+{
+"49
+} 0
+"56
+[v _Compare_Init Compare_Init `(v  1 e 1 0 ]
+{
+"64
+} 0
+"31
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"43
+} 0
